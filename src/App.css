@@ -1,0 +1,34 @@
+body{
+  position: relative;
+}
+
+.app{
+  max-width: 43.75rem;
+  position: absolute;
+  top: 18px;
+  right: 50px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 100%;
+  min-width: 26rem;
+}
+
+.line{
+  background-color:#4A4E54;
+  box-shadow: 0px 5px 5px 0px black;
+  border-radius: 5px;
+  width: 80%;
+  height: 3px;
+}
+
+@media (max-width: 825px) {
+  .app{
+    left: 50px;
+  }
+}

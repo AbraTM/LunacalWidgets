@@ -1,0 +1,11 @@
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(145deg, #373E44 0%, #191B1F 100%);   
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative; 
+}
